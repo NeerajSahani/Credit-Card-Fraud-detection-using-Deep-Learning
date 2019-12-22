@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix
 
 #preprocessing
 
-dataset = pd.read_csv('Dataset/Churn_Modelling.csv')
+dataset = pd.read_csv('Churn_Modelling.csv')
 
 dataset = dataset[['CreditScore', 'Geography', 'Gender', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary', 'Exited']]
 
